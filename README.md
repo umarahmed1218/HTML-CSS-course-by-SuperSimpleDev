@@ -1,7 +1,6 @@
 # html-css-course-by-supersimpledev
 
-Built as part of SuperSimpleDev's "HTML & CSS Full Course - Beginner to Pro," this repository contains a static front-end implementation and practice exercises replicating the YouTube interface to demonstrate core layout and styling techniques like Flexbox and Grid.
-
+Developed as part of SuperSimpleDev's "HTML & CSS Full Course - Beginner to Pro," this introductory project is a static front-end clone of the YouTube website designed to help beginners master core web development concepts (README.md). The repository features numerous practice exercises covering foundational techniques like Flexbox, Grid, positioning, and forms, all culminating in a comprehensive youtube.html (README.md) file that brings these skills together into a fully structured interface complete with a header, sidebar, and video grid (README.md).
 
 ## Table of Contents 📜
 
