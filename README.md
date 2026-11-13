@@ -1,4 +1,4 @@
-# html-css-course-by-supersimpledev 💿
+# html-css-course-by-supersimpledev
 
 A static HTML/CSS front-end replicating the official YouTube website, built as part of the "HTML & CSS Full Course - Beginner to Pro" by SuperSimpleDev. This project serves as a comprehensive learning resource, covering fundamental front-end development concepts through practical examples.
 
