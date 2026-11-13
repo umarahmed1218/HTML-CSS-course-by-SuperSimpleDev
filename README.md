@@ -53,4 +53,4 @@ o view the full YouTube clone, open `youtube.html` in your browser.
 
 ## Footer 📝
 
-**youtube-frontend** | [View on GitHub](https://github.com/m-ahmed-21/youtube-frontend) | [Author Profile](https://github.com/m-ahmed-21)
+**youtube-frontend** | [View on GitHub](https://github.com/umarahmed1218/HTML-CSS-course-by-SuperSimpleDev) | [Author Profile](https://github.com/umarahmed1218)
