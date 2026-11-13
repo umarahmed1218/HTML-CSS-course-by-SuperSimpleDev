@@ -18,7 +18,7 @@ Developed as part of SuperSimpleDev's "HTML & CSS Full Course - Beginner to Pro,
 * [Important Links](#important-links)
 * [Footer](#footer)
 
-## Project Title & Badges 🏆
+## Project Title & Badges ⛉
 
 ![HTML](https://img.shields.io/badge/HTML-93-orange)
 ![CSS](https://img.shields.io/badge/CSS-12-blue)
@@ -50,7 +50,5 @@ To run the project:
     ```
 3.  **Open any HTML file** (e.g., `youtube.html` or any file within `practice-exercises/`) in your web browser.
 o view the full YouTube clone, open `youtube.html` in your browser.
-
-## Footer 📝
 
 **youtube-frontend** | [View on GitHub](https://github.com/umarahmed1218/HTML-CSS-course-by-SuperSimpleDev) | [Author Profile](https://github.com/umarahmed1218)
