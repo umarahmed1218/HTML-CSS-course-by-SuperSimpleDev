@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<head>
+  <title>
+    Exercise 8e
+  </title>
+
+  <!-- Uber Move Font -->
+  <link href = "https://fonts.cdnfonts.com/css/uber-move-text" rel = "stylesheet">
+
+  <style>
+    .page-title {
+      font-family: 'Uber Move Text', sans-serif;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .pickup-location-input,
+    .destination-input {
+      border: none;
+      border-radius: 0;
+      background-color: rgba(204, 204, 204, 0.311);
+      padding-left: 18px;
+      width: 265px;
+      display: block;
+      margin-bottom: 5px;
+      padding-top: 11px;
+      padding-bottom: 11px;
+    }
+    .pickup-location-input:focus,
+    .destination-input:focus {
+      outline: solid;
+      outline-width: 1px;
+    }
+
+    .destination-input{
+      margin-bottom: 30px;
+    }
+
+    .request-now-button,
+    .schedule-later-button {
+      border: none;
+      border-radius: 0;
+      background-color: rgba(204, 204, 204, 0.311);
+      padding-left: 18px;
+      padding-right: 18px;
+      margin-bottom: 5px;
+      padding-top: 11px;
+      padding-bottom: 11px;
+      cursor: pointer;
+    }
+
+    .request-now-button {
+      margin-right: 12px;
+      background-color: black;
+      color: white;
+      transition: background-color 0.15s;
+    }
+    .request-now-button:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .schedule-later-button {
+      margin-right: 12px;
+      background-color: rgba(204, 204, 204, 0.311);
+      color: black;
+      transition: background-color 0.15s;
+    }
+    .schedule-later-button:hover {
+      background-color: rgba(204, 204, 204, 0.511);
+    }
+  </style>
+</head>
+
+<body>
+  <html>
+    <p class = "page-title">
+      Request a ride now
+    </p>
+
+    <input class = "pickup-location-input" placeholder = "Enter pickup location">
+
+    <input class = "destination-input" placeholder = "Enter destination">
+
+    <button class = "request-now-button">
+      Request now
+    </button>
+
+    <button class = "schedule-later-button">
+      Schedule for later
+    </button>
+  </html>
+</body>

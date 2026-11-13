@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            Exercise 14f
+        </title>
+        
+        <style>
+            p {
+                margin: 0px;
+                color: white;
+                font-family: arial;
+                font-size: 12px;
+            }
+            .inner-sidebar {
+                background-color: rgb(36, 36, 36);
+                width: 52px;
+                position: fixed;
+                top: 0px;
+                bottom: 0px;
+                left: 0px;
+            }
+
+            .channel-pictures-container {
+                display: flex;
+                flex-direction: column;
+                padding-top: 11px;
+            }
+
+            .channel-picture-container {
+                display: flex;
+                justify-content: space-around;
+                width: 52px;
+                height: fit-content;
+                padding-top: 3px;
+                padding-bottom: 3px;
+                cursor: pointer;
+            }
+            .channel-picture-container:hover {
+                background-color: rgb(45, 45, 45);
+            }
+
+            .channel-picture {
+                height: 38px;
+                width: 38px;
+                object-fit: cover;
+                object-position: center;
+                border-radius: 50%;
+            }
+
+            .outer-sidebar {
+                position: fixed;
+                background-color: rgb(54, 54, 54);
+                width: 140px;
+                top: 0px;
+                bottom: 0px;
+                left: 52px;
+            }
+
+            .header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px;
+            }
+
+            .left-side .text {
+                font-size: 10px;
+                font-weight: 800;
+                color: rgb(225, 225, 225);
+                cursor: pointer;
+            }
+            
+            .right-side .add-sign {
+                font-size: 18px;
+                color: rgb(157, 157, 157);
+                cursor: pointer;
+                transition: color 0.15s;
+            }
+            .add-sign:hover {
+                color: rgb(147, 147, 147);
+            }
+
+            .topic-names-container {
+                display: flex;
+                flex-direction: column;
+                row-gap: 12px;
+                margin-top: -2px;
+            }
+
+            .topic-name {
+                margin-left: 10px;
+                color: rgb(157, 157, 157);
+                width: fit-content;
+                cursor: pointer;
+                transition: color 0.15s;
+            }
+            .topic-name:hover {
+                color: rgb(147, 147, 147);
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class = "inner-sidebar">
+            <div class = "channel-pictures-container">
+                <div class = "channel-picture-container">
+                    <img class = "channel-picture" src = "images/cute-image.jpeg">
+                </div>
+                <div class = "channel-picture-container">
+                    <img class = "channel-picture" src = "images/cute-cat-picture.jpeg">
+                </div>
+                <div class = "channel-picture-container">
+                    <img class = "channel-picture" src = "images/cute-dog-picture.jpg">
+                </div>
+            </div>
+        </div>
+
+        <div class = "outer-sidebar">
+            <div class = "header">
+                <div class = "left-side">
+                    <p class = "text">
+                        INFO
+                    </p>
+                </div>
+                <div class = "right-side">
+                    <p class = "add-sign">
+                        +
+                    </p>
+                </div>
+            </div>
+            <div class = "topic-names-container" >
+                <div class = "topic-names-container">
+                    <p class = "topic-name">
+                        # new-videos
+                    </p>
+                    <p class = "topic-name">
+                        # updates
+                    </p>
+                    <p class = "topic-name">
+                        # faq
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

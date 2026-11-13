@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            Exercise 15c
+        </title>
+
+        <style>
+            .overlay-container {
+                display: flex;
+                height: 100vh;
+                width: 100%;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+            .overlay {
+                position: fixed;
+                background-color: rgb(135, 135, 135);;
+                width: 225px;
+                height: 125px;
+                cursor: pointer;
+            }
+
+            .close-button {
+                display: flex;
+                font-family: Arial;
+                position: absolute;
+                top: -14.5px;
+                left: -14.5px;
+                width: 35px;
+                height: 35px;
+                color: white;
+                background-color: black;
+                border-radius: 50%;
+                font-size: 16px;
+                justify-content: space-around;
+                align-items: center;
+                cursor: pointer;
+                transition: color 0.25s, background-color 0.25s;
+            }
+            .close-button:hover {
+                color: rgb(219, 219, 219);
+                background-color: rgb(38, 38, 38);
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class = "overlay-container">
+            <div class = "overlay">
+                <div class = "close-button">
+                    X
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

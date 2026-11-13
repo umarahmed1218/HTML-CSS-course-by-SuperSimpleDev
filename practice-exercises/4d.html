@@ -1,0 +1,54 @@
+<!-- Bootstrap -->
+
+<!-- CSS -->
+<style>
+  .get-started-button {
+    background-color: rgb(121, 82, 179);
+    color: white;
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+    padding-left: 19.5px;
+    padding-right: 19.5px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.15s;
+  }
+
+  .get-started-button:hover {
+    background-color: rgb(99, 65, 150);
+  }
+
+  .download-button {
+    background-color: white;
+    color: rgb(108, 117, 125);
+    padding-top: 8.5px;
+    padding-bottom: 8.5px;
+    padding-left: 20.5px;
+    padding-right: 20.5px;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    /* NOTE: If you want a border-shaped (negative colored) button, do NOT use the "border" property in CSS! */
+    /* Why? -> This is because, the "border" property was previously used to make the border NON-existent by applying the value "none" */
+    transition: background-color 0.15s, color 0.15s;
+  }
+
+  .download-button:hover {
+    background-color: rgb(108, 117, 125);
+    color: white;
+  }
+</style>
+  
+<!-- HTML -->
+<!-- "Get started" Button -->
+<button class = "get-started-button">
+  Get started
+</button>
+<!-- "Download" Button -->
+<button class = "download-button">
+  Download
+</button>

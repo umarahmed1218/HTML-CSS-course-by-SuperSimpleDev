@@ -1,0 +1,68 @@
+/* css selector (determines which elements – in html – we are targeting) */
+.subscribe-button { /* selects ALL buttons on the page */
+/* css property: css value; */
+background-color: #cc0000;
+color: white;
+border: none;
+border-radius: 2px;
+cursor: pointer;
+font-size: 14px;
+margin-right: 8px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 16px;
+padding-right: 16px;
+transition: opacity 0.15s;
+vertical-align: top;
+}
+.subscribe-button:hover { /* "hover" is a pseudo-class, i.e. it is a further class in "subscribe-button" */
+opacity: 0.8;
+}
+.subscribe-button:active {
+opacity: 0.5;
+}
+
+.join-button {
+background-color: white;
+color: rgb(3, 86, 220);
+border-color: rgb(3, 86, 220);
+border-style: solid;
+border-radius: 2px;
+border-width: 1px;
+cursor: pointer;
+font-size: 14px;
+margin-right: 8px;
+padding-top: 9px;
+padding-bottom: 9px;
+padding-left: 15px;
+padding-right: 15px;
+transition: background-color 0.15s, color 0.15s;
+vertical-align: top;
+}
+.join-button:hover {
+background-color: rgb(3, 86, 220);
+color: white;
+}
+.join-button:active {
+opacity: 0.7;
+}
+
+.tweet-button {
+background-color: #1d9bf0;
+color: white;
+border: none;
+border-radius: 18px;
+font-weight: bold;
+font-size: 15px;
+font-family: Calibri, sans-serif;
+cursor: pointer;
+transition: box-shadow 0.15s;
+vertical-align: top;
+padding-top: 9px;
+padding-bottom: 9px;
+padding-left: 18px;
+padding-right: 18px;
+}
+.tweet-button:hover {
+box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+}

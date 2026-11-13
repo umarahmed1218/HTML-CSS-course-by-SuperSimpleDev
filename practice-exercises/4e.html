@@ -1,0 +1,53 @@
+<!-- LinkedIn -->
+
+<!-- CSS -->
+<style>
+  .apply-button {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.15s;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12.25px;
+    padding-bottom: 12.25px;
+  }
+
+  .apply-button:hover {
+    background-color: rgb(4, 87, 169);
+  }
+
+  .save-button {
+    background-color: white;
+    color: rgb(10, 102, 194);
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1.3px;
+    border-color: rgb(10, 102, 194);
+    font-weight: bold;
+    cursor: pointer;
+    /* NOTE: If you want a border-shaped (negative colored) button, do NOT use the "border" property in CSS! */
+    /* Why? -> This is because, the "border" property was previously used to make the border NON-existent by applying the value "none" */
+    transition: background-color 0.15s, border-width 0.1s;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 11.5px;
+    padding-bottom: 11.5px;
+  }
+
+  .save-button:hover {
+    background-color: rgba(27, 132, 236, 0.15);
+    border-width: 2.0px;
+  }
+</style>
+  
+<!-- HTML -->
+<button class = "apply-button">
+  Apply on company website
+</button>
+<button class = "save-button">
+  Save
+</button>

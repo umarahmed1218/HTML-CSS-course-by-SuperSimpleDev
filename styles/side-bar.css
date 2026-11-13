@@ -1,0 +1,55 @@
+.side-bar {
+    position: fixed;
+    row-gap: 30px;
+    left: 0px;
+    top: 45px;
+    bottom: 0px;
+    width: 72px;
+    background-color: white;
+}
+
+.side-bar-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.home-box,
+.explore-box,
+.subscriptions-box,
+.originals-box,
+.yt-music-box,
+.library-box {
+    width: 72px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    cursor: pointer;
+}
+
+.home-box:hover,
+.explore-box:hover,
+.subscriptions-box:hover,
+.originals-box:hover,
+.yt-music-box:hover,
+.library-box:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+.home-img,
+.explore-img,
+.subscriptions-img,
+.originals-img,
+.yt-music-img,
+.library-img {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 4px;
+}

@@ -1,0 +1,12 @@
+.video-title {
+font-family: Arial;
+font-weight: bold;
+font-size: 18px;
+width: 300px;
+line-height: 24px;
+}
+
+.video-stats {
+font-family: Arial;
+font-size: 14px;
+}

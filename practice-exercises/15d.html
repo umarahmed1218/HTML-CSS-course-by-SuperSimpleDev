@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            Exercise 15d
+        </title>
+
+        <style>
+            .overlay-container {
+                display: flex;
+                height: 100vh;
+                width: 100%;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+            .overlay {
+                position: fixed;
+                background-color: rgb(135, 135, 135);;
+                width: 225px;
+                height: 125px;
+                cursor: pointer;
+            }
+
+            .time-stamp {
+                position: absolute;
+                display: inline-block;
+                width: fit-content;
+                right: 7px;
+                bottom: 7px;
+                padding-left: 6px;
+                padding-right: 6px;
+                padding-top: 3px;
+                padding-bottom: 3px;
+                background-color: black;
+                color: rgb(215, 215, 215);
+                font-size: 12px;
+                font-family: Arial;
+                border-radius: 1px;
+                cursor: text;
+            }
+
+            .close-button {
+                display: flex;
+                font-family: Arial;
+                position: absolute;
+                top: -14.5px;
+                left: -14.5px;
+                width: 35px;
+                height: 35px;
+                color: white;
+                background-color: black;
+                border-radius: 50%;
+                font-size: 16px;
+                justify-content: space-around;
+                align-items: center;
+                cursor: pointer;
+                transition: color 0.25s, background-color 0.25s;
+            }
+            .close-button:hover {
+                color: rgb(219, 219, 219);
+                background-color: rgb(38, 38, 38);
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class = "overlay-container">
+            <div class = "overlay">
+                <div class = "close-button">
+                    X
+                </div>
+                <div class = "time-stamp">
+                    0:29
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
