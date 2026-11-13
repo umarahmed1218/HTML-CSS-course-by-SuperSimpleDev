@@ -1,4 +1,6 @@
 # HTML-CSS-course-by-SuperSimpleDev
+![HTML](https://img.shields.io/badge/HTML-93-orange)
+![CSS](https://img.shields.io/badge/CSS-12-blue)
 
 Developed as part of SuperSimpleDev's "HTML & CSS Full Course - Beginner to Pro," this introductory project is a static front-end clone of the YouTube website designed to help beginners master core web development concepts (README.md). The repository features numerous practice exercises covering foundational techniques like Flexbox, Grid, positioning, and forms, all culminating in a comprehensive youtube.html (README.md) file that brings these skills together into a fully structured interface complete with a header, sidebar, and video grid (README.md).
 
@@ -17,11 +19,6 @@ Developed as part of SuperSimpleDev's "HTML & CSS Full Course - Beginner to Pro,
 * [License](#license)
 * [Important Links](#important-links)
 * [Footer](#footer)
-
-## Project Title & Badges ⛉
-
-![HTML](https://img.shields.io/badge/HTML-93-orange)
-![CSS](https://img.shields.io/badge/CSS-12-blue)
 
 ## Description 📝
 
@@ -51,4 +48,6 @@ To run the project:
 3.  **Open any HTML file** (e.g., `youtube.html` or any file within `practice-exercises/`) in your web browser.
 o view the full YouTube clone, open `youtube.html` in your browser.
 
-**youtube-frontend** | [View on GitHub](https://github.com/umarahmed1218/HTML-CSS-course-by-SuperSimpleDev) | [Author Profile](https://github.com/umarahmed1218)
+
+## _Footer_
+**HTML-CSS-course-by-SuperSimpleDev** | [View on GitHub](https://github.com/umarahmed1218/HTML-CSS-course-by-SuperSimpleDev) | [Author Profile](https://github.com/umarahmed1218)
