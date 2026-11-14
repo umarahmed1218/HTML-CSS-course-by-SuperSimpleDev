@@ -1,4 +1,4 @@
-# html-css-course-by-supersimpledev
+# HTML-CSS-course-by-SuperSimpleDev
 ![HTML](https://img.shields.io/badge/HTML-93-orange)
 ![CSS](https://img.shields.io/badge/CSS-12-blue)
 
